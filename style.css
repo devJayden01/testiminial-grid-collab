@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media screen and (min-width: 768px) {
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     background-color: hsl(210, 46%, 95%);
@@ -120,4 +127,129 @@ h3{
 
 .grad{
     opacity: 50%;
+}
+}
+
+@media screen and (max-width: 600px) { 
+    body{
+        background-color: hsl(210, 46%, 95%);
+        margin-right: 0px;
+        height: 200vh;
+        overflow-y: scroll;
+    }
+    .container{
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        width: 90%;
+    }
+    .grid-box{
+        display: grid;
+        grid-template-columns: none;
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .daniel-section{
+        background-color: hsl(263, 55%, 52%);
+        color: white;
+        border-radius: 10px;
+        height: 30rem;
+        width: auto;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .jonathan-section{
+        border-radius: 10px;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(217, 19%, 35%);
+        border: 2px solid hsl(217, 19%, 35%);
+        width: auto;
+        height: 18rem;
+        margin-bottom: 15px;
+    }
+    .jeanette-section{
+        border-radius: 10px;
+        color: hsl(0, 0%, 0%);
+        background-color: hsl(0, 0%, 100%);
+        width: auto;
+        position: relative;
+        bottom: 0rem;
+        margin-bottom: 15px;
+    }
+    
+    .patrick-section{
+        border: 2px solid hsl(217, 19%, 35%);
+        background-color: hsl(219, 29%, 14%);
+        color: white;
+        border-radius: 10px;
+        width: auto;
+        position: relative;
+        bottom: 0rem;
+        right: 0rem;
+        margin-bottom: 15px;
+    }
+    .kira-section{
+        background-color: hsl(0, 0%, 100%);
+        width: auto;
+        border-radius: 10px;
+        position: relative;
+        right: 0rem;
+        margin-bottom: 15px;
+    }
+    .pgrph{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+        width: 330px;
+        opacity: 70%;
+        margin-right: 0px;
+    }
+    h3{
+        width: 330px;
+        margin-right: 0px;
+    }
+    .first-intro{
+        width: 330px;
+        margin-right: 0px;
+    }
+    .name-img{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .img{
+        border-radius: 50%;
+        padding-right: 20px;
+    }
+    
+    h3{
+        padding-bottom: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-family: "Barlow Semi Condensed", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    .pgrph{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+        opacity: 70%;
+    }
+    
+    .grad{
+        opacity: 50%;
+    }
 }
