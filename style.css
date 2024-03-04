@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+    overflow-x: visible;
+}
+
+.container{
+    line-height: 1.3rem;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    /* height: 100%;
+    width: 100%; */
+}
+
+.grid-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.daniel-section{
+    background-color: hsl(263, 55%, 52%);
+    /* background-image: url(./TESTIMONIAL\ ASSIGNMENT/); */
+    color: white;
+    margin-right: 3rem;
+    /* margin-bottom: 1rem; */
+    /* margin-top: 20px; */
+    /* margin-left: 20px; */
+    border-radius: 10px;
+    width: 39rem;
+    height: fit-content;
+}
+
+.jonathan-section{
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 19%, 35%);
+    border: 2px solid hsl(217, 19%, 35%);
+    width: 18rem;
+    height: fit-content;
+    position: relative;
+    right: .7rem;
+}
+
+.jeanette-section{
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    border-radius: 10px;
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 100%);
+    width: 18rem;
+    position: relative;
+    bottom: 15rem;
+}
+
+.patrick-section{
+    border: 2px solid hsl(217, 19%, 35%);
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    border-radius: 10px;
+    width: 39rem;
+    position: relative;
+    bottom: 15rem;
+    right: 21.5rem;
+}
+
+.kira-section{
+    background-color: hsl(0, 0%, 100%);
+    width: 20rem;
+    height: fit-content;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    border-radius: 10px;
+    position: relative;
+    right: 20rem;
+}
+
+.name-img{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+h3{
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.pgrph{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    opacity: 70%;
+}
+
+.grad{
+    opacity: 50%;
+}
